@@ -3,6 +3,6 @@ void main() {
   print("Statement2");
 
   Future.delayed(Duration(seconds: 5));
-  print("Statement3");
+  //print("Statement3");
   print("Statement4");
 }
