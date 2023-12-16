@@ -3,12 +3,10 @@ void fun2() {
     print("In fun 2-1");
   }
 
-  Future.delayed(
-    Duration(seconds: 5),
-  );
+  Future.delayed(Duration(seconds: 5), () => print("Delay"));
 
   for (int i = 0; i < 10; i++) {
-    print("In fun2-2");
+    print("In fun 2-2");
   }
 }
 
@@ -20,7 +18,7 @@ void fun1() {
 
 void main() {
   print("Start main");
-  fun1();
   fun2();
+  fun1();
   print("End Main");
 }
