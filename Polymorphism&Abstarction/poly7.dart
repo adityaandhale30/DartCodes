@@ -16,8 +16,8 @@ class Child extends Parent {
   Child(int x,int y):super(y);
 
   int printData() {
+    //print(x);
 
-    print(x);
     print(y);
     return 3;
   }

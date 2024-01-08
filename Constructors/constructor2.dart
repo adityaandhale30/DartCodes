@@ -4,9 +4,9 @@ class Employee {
   String ? empName;
   
   Employee() {}
-  Employee(int empid,String empName){
+ // Employee(int empid,String empName){
 
-  }
+//  }
 }
 
 void main() {
